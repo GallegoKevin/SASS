@@ -1,0 +1,78 @@
+.h-container{
+    background-color: $header-color; 
+    max-width: 1200px;
+    /*border: 1px solid black;*/
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+}
+.grip-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /*border: 1px solid red;*/
+    padding: 5px;
+    margin: 16px 0 16px 0;
+}
+.item-1{
+    /*border: 1px solid navy ;*/
+    background-color: white;
+}
+
+h1 {
+    font-size: 2.4em;
+    /*border: 1px solid darkolivegreen;*/
+    width: 370px;
+}
+
+.item-2{
+    /*border: 1px solid rgb(61, 9, 46);*/
+    /*background-color: yellow;*/
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.right {
+    background-image: url('.//img/b-flecha-right.png'); 
+    background-size: 26px 26px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin:15px;
+    border: 2px solid rgb(231, 230, 230);
+    /*background-color: rgb(255, 255, 255);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.1s, color 0.3s;
+  }
+  .right:hover {
+    background-image: url('.//img/w-flecha-right.png'); 
+    background-color: rgb(255, 58, 23);
+    border: 2px solid rgb(255, 127, 23);
+  }
+
+  .left {
+    background-image: url('./img/w-flecha-left.png');
+    background-size: 26px 26px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-right: 20px;
+    border: 2px solid rgb(255, 127, 23);
+    background-color: rgb(255, 72, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.1s, color 0.3s;
+  }
+  .left:hover {
+    background-color: rgb(250, 242, 242);
+    border: 2px solid rgb(231, 230, 230);
+    background-image: url('.//img/b-flecha-left.png'); 
+  }
