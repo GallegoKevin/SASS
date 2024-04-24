@@ -25,5 +25,5 @@
 7. Ampersan Padre(&):
     Se usa para hacer referencia al selector padre mediante el simbolo "&".
 
-8. Modularidad: Es la capacidad de organizar y estructuraar los estilos css de manera mas efeciente, dividiendo los estilos css en modulos mas pequeños y manejables    
+8. Modularidad: Es la capacidad de organizar y estructurar los estilos css de manera mas efeciente, dividiendo los estilos css en modulos mas pequeños y manejables    
 
