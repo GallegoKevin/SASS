@@ -75,6 +75,13 @@ body {
   background-image: url(".//img/b-flecha-left.png");
 }
 
+main {
+  padding: 0px;
+  max-width: 100%;
+  position: relative;
+  min-height: 100vh;
+}
+
 .sec01 {
   background-color: rgb(255, 255, 255);
   max-width: 1200px;
